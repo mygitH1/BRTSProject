@@ -1,0 +1,35 @@
+<html>
+<head>
+<script language = "javascript" Src=Check.js>
+</script>
+</head>
+<body background="backgrnd.gif">
+<h2><font color = gray><u> SIGNUP FORM:</u></font></h2>
+<form action = "http://localhost:8080/passins.jsp">
+<TABLE border=0 cellPadding=1 cellSpacing=1 width="75%">
+<TR><TD>USERID  : </TD><TD><INPUT name=uname onblur=ff_uname(this)></TD>
+<TD></TD><TD></TD></TR><TR><TD>PASSWORD: </TD>
+<TD><INPUT name=pwd onchange=f1_pwd(this); type=password  < pre></TD>
+<TD></TD><TD></TD></TR>
+<TR><TD>FirstName :</TD>
+<TD><INPUT name=fname onblur=f_fname(this)></TD>
+<TD>LastName  :</TD><TD><INPUT name=lname onblur=f_lname(this)></TD></TR>
+<TR><TD>Address1 : </TD><TD><INPUT name=add1 onchange=f_add1(this)></TD>
+<TD>Address2 : </TD><TD><INPUT name=add2 onblur=f_add2(this)></TD></TR>
+<TR><TD>Pincode : </TD><TD><INPUT name=pcode onchange=f_pcode(this)></TD>
+<TD>GENDER:  </TD><TD><SELECT name=opt>
+<OPTION selected value="">
+<OPTION value=Male>MALE</OPTION><OPTION 
+      value=Female>FEMALE</OPTION></SELECT></TD></TR>
+<TR><TD>Phone   : </TD>
+<TD><INPUT name=phone onblur=f_phone(this)></TD>
+<TD></TD><TD></TD></TR><TR><TD>MailId  :</TD>
+<TD><INPUT name=mail onchange=f_mail(this)></TD>
+<TD></TD><TD></TD></TR><TR><TD></TD><TD></TD><TD></TD>
+<TD></TD></TR><TR><TD></TD><TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <INPUT type=submit value=SUBMIT></TD>
+ <TD><INPUT type=reset value=RESET></TD><TD></TD></TR>
+ <TR><TD></TD><TD></TD><TD></TD><TD></TD></TR></TABLE></form>
+</body>
+</html>
+

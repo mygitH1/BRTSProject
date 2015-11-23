@@ -1,0 +1,12 @@
+import java.io.*;
+import javax.servlet.*;
+public class servetest extend Generic Servlet
+	
+{
+	public void service(Servlet Request req, Servlet Response res)
+	{
+	res.setContent Type(text/plain);
+	printWriter out=res.get writerout();
+	out.println("hello servlet");
+	}
+}

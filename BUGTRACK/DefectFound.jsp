@@ -1,0 +1,1 @@
+The Defect has been added to the DataBase.<a href="/Defect.jsp">Add New Defect</a>
